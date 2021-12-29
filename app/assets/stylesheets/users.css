@@ -1,0 +1,54 @@
+.users {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.users li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+}
+
+.users li a {
+  font-size: 20px;
+  color: #1da1f2;
+}
+
+.users li button {
+  margin: 0px;
+}
+
+.user-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user-detail .users {
+  width: 300px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: white;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.user-detail .users li {
+  color: #1da1f2;
+}
+
+.user-detail .users p {
+  margin: 10px;
+  font-size: 16px;
+}
+/*# sourceMappingURL=users.css.map */

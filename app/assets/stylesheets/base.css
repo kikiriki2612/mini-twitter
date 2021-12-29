@@ -1,0 +1,55 @@
+body {
+  background-color: #E6ECF0;
+  color: #657786;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #657786;
+}
+
+form {
+  padding: 0px;
+}
+
+.page-header {
+  font-family: 'Fredoka One', cursive;
+  font-size: 35px;
+  color: #1da1f2;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.errors {
+  color: red;
+  padding: 10px;
+}
+
+.errors li {
+  padding-bottom: 10px;
+}
+
+input[type='submit'], button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #1da1f2;
+  color: white;
+  margin-bottom: 25px;
+}
+/*# sourceMappingURL=base.css.map */
